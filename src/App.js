@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import React from 'react'
+import DirectChat from './DirectChat';
 import './App.css';
 
-function App() {
+//Using arrow function component
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // <ChatEngine
+    //   userName='Muganga'
+    //   projectID = '8296ad17-4229-4bcd-a65d-6894718daa54'
+    //   userSecret='5f1d3069-b7dd-413d-865d-60f0dcad04bd'
+
+    // />
+    <DirectChat/>
+  )
 }
 
-export default App;
+export default App
+
+
